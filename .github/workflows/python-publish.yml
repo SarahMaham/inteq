@@ -35,4 +35,6 @@ jobs:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
 
-setup-python
+- name: Setup Python
+  uses: actions/setup-python@v2.2.2
+
